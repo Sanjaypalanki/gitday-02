@@ -8,7 +8,7 @@ instances = ec2.create_instances(
     ImageId='ami-0c02fb55956c7d316',  # Amazon Linux 2 AMI (us-east-1)
     MinCount=1,
     MaxCount=1,
-    InstanceType='t2.micro',
+    InstanceType='t2.medium',
     KeyName='your-key-pair-name',  # Replace with your actual key pair name
     TagSpecifications=[
         {
