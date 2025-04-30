@@ -18,5 +18,5 @@ instances = ec2.create_instances(
     ]
 )
 
-print("Launched instance with ID:", instances[0].id)
+#print("Launched instance with ID:", instances[0].id)
 
